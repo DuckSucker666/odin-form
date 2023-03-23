@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url("./assets/Norse-Bold.otf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left {
+  background-image: url("./assets/side.jpg");
+  width: 35vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
+  width: 65vw;
+  font-family: sans-serif;
+}
+
+.first {
+  height: 33vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.second {
+  background-color: white;
+  height: 33vh;
+  align-items: center;
+  box-shadow: 2px 5px #e5e7eb;
+}
+
+.form-main-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 200px;
+  border: 1px solid #e5e7eb;
+  height: 25px;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid rgb(79, 76, 255);
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+label {
+  font-size: 14px;
+  color: #3f3f448f;
+  font-weight: bold;
+}
+
+#error{
+  color: rgb(214, 36, 36);
+  font-size: 12px;
+  margin: 2px;
+}
+
+.btn-green {
+  background-color: #596d48;
+  color: white;
+  border: 1px solid #465470;
+  border-radius: 10px;
+  height: 40px;
+  width: 170px;
+  font-size: 15px;
+  font-weight: bolder;
+  box-shadow: 2px 5px #e5e7eb;
+}
+
+.third {
+  height: 33vh;
+  margin: 40px;
+}
+
+.a-footer{
+  color: wheat;
+}
+
+.p-footer{
+  font-size: 15px;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  font-family: sans-serif;
+  height: 60vh;
+  width: 34vh;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.image{
+  height: 33vh;
+  display: flex;
+  align-items: flex-end;
+  font-family: "Norse Bold", sans-serif;
+}
+
+.back {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  background-color: #00000091;
+  align-items: center;
+}
+
+h1{
+  font-size: 70px;
+}
